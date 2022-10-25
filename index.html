@@ -16,13 +16,13 @@
         <label for="messaggio">messaggio</label>
         <input id="messaggio" type="text" v-model="msg">
 
-        <h1>{{ msg }}</h1>
+        <h1 v-bind:class="color">{{ msg }}</h1>
 
         <div>
             <img v-bind:src="img" alt="">
         </div>
 
-        <button @click="greet">Buttone che saluta</button>
+        <button @click="greetChangeColor">Buttone che saluta e cambia colore</button>
 
     </div>
 

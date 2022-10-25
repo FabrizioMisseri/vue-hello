@@ -9,12 +9,18 @@ createApp({
     data(){
         return {
             msg: "",
-            img: "https://picsum.photos/200/300"
+            img: "https://picsum.photos/200/300",
+            color: "red"
         }
     },
     methods:{
-        greet: function() {
-            alert("ciao");
+        greetChangeColor: function() {
+            alert("forza roma");
+            if (this.color === "red") {
+                this.color = "green";
+            } else{
+                this.color = "red";
+            }
         }
     }
 }).mount("#app");
