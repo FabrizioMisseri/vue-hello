@@ -11,4 +11,4 @@ createApp({
             msg:"",
         }
     }
-}).mount("app");
+}).mount("#app");
