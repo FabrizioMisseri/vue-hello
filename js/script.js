@@ -16,6 +16,7 @@ createApp({
     methods:{
         greetChangeColor: function() {
             alert("forza roma");
+            alert(" compra bitcoin");
             if (this.color === "red") {
                 this.color = "green";
             } else{
