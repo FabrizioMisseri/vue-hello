@@ -11,5 +11,10 @@ createApp({
             msg: "",
             img: "https://picsum.photos/200/300"
         }
+    },
+    methods:{
+        greet: function() {
+            alert("ciao");
+        }
     }
 }).mount("#app");
